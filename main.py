@@ -92,8 +92,7 @@ class Window(Tk):
         OptionMenu(
             self,
             self.month,
-            *month_table,
-            command=lambda x: print(self.month.get())
+            *month_table
         ).place(x=120, y=50, width=270, height=34)
 
         Label(
